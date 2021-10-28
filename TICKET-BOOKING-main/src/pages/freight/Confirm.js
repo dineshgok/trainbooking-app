@@ -5,11 +5,7 @@ import {useHistory} from "react-router-dom";
 
 function Confirm() {
     const history = useHistory();
-// state={
-// title:'',
-// body:'',
-// posts:[]
-// }
+
 const [ftype, setFtype] = useState("")
 
     const [fromplace, setFromplace] = useState("")
@@ -22,18 +18,6 @@ const [ftype, setFtype] = useState("")
 
     const [fname, setFname] = useState("")
 
-// componentDidMount=()=>{
-//     this.getData();
-// }
-
-//     getData=()=>{
-//         axios.get('http:/localhost:8080/render').then((response)=>{
-//             this.setStatee({posts:data});
-//             const data=response.data;
-//         console.log("Data displayed");
-// })
-// .catch(()=>{alert("Error in data");
-// })}
     return (
         <div>
             <body className="sanbodypart">
